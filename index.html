@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="script.js"></script>
+    <title>PicXplorer</title>
+</head>
+<body>
+
+
+    <!-------------------------------interface---------------------------------------->
+
+
+    <div id="interface">
+        <div id="interface-container">
+            <img src="logo.png" alt="logo"/ id="interface-logo">
+            <h2>Find Your Desired Pics!!!</h2>
+            <button id="continue" onclick="main()">continue</button>
+        </div>
+    </div>
+
+    <!----------------------------------main--------------------------------------->
+
+    <div id="main">
+        <div id="main-container">
+            <img src="logo.png" id="main-logo" alt="logo"/ onclick="interface()">
+            <div id="searchfield">
+            <input type="text" id="textInput" placeholder="Search Images..." />
+            <button id="searchbtn">search</button>
+            </div>
+            <h2>Search Result...</h2>
+            <div id="images">
+                <div class="box">
+                    <img src="feature-4.png"/>
+                    <p>This is sample image</p>
+                </div>
+                <div class="box">
+                    <img src="feature-4.png"/>
+                    <p>This is sample image</p>
+                </div>
+                <div class="box">
+                    <img src="feature-4.png"/>
+                    <p>This is sample image</p>
+                </div>
+                <div class="box">
+                    <img src="feature-4.png"/>
+                    <p>This is sample image</p>
+                </div>
+            </div>
+            <button id="showmore">showmore</button>
+        </div>
+    </div>
+
+</body>
+</html>
